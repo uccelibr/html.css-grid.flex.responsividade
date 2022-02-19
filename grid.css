@@ -1,0 +1,243 @@
+body {background-color:hsl(204, 43%, 93%);
+    padding: 0;
+    margin: 10% 5% 10% 5%;
+    border: none;
+    font-size: 1.0rem;       
+    font-family: 'Karla', sans-serif;    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:black
+
+}
+.cabecalho-p{
+    padding: 0;
+    margin: 2% 8% 2% 8%;
+    font-size: 0.9rem;
+    color:hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+}
+p{
+    padding:0;
+    margin: 2% 8% 2% 10%;
+    font-size: 0.9rem;
+    color:white;
+    font-family: 'Karla', sans-serif;
+    line-height: 0.5;
+    
+}
+
+.principal {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px 250px ;
+    grid-template-areas: "he1 he1" 
+                         "s1 a1" ;
+}
+
+header {
+    padding-top: 20px;
+   grid-area: he1;
+   background-color: white;
+   justify-content: center;
+ 
+}
+
+section {padding-top: 20px;
+    grid-area: s1;
+    background-color: rgb(23, 172, 172);
+   
+    justify-content: center;
+   
+ }
+
+ aside {
+     padding-top: 10px;
+    grid-area: a1;
+    background-color: rgb(18, 189, 189);
+   justify-content: center;
+
+   
+ }
+
+h1{
+    padding: 0;
+    margin: 2% 15% 2% 8%;
+    font-size: 1.5rem;
+    color:rgb(2, 218, 218);
+    font-family: 'Karla', sans-serif;
+}
+h2{
+    padding: 0;
+    margin:5% 8% 2% 8%;
+    font-size: 1.2rem;
+    color: yellow;
+    font-family: 'Karla', sans-serif;
+}
+h3{
+    padding: 0;
+    margin: 5% 8% 2% 10%;
+    font-size: 1.2rem;
+    color:white;
+    font-family: 'Karla', sans-serif;
+}
+h4{
+    padding: 5px;
+    margin: 5% 8% 2% 12%;
+    font-size: 1.2rem;
+    color:white;
+    font-family: 'Karla', sans-serif;   
+}
+.valor{
+    flex:none;}
+.valor-maior{
+    display: inline-block;
+    color:white;
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: 'Karla', sans-serif;
+
+}
+.valor-menor{
+    display: inline-block;
+    color:white;
+    font-size: 10px;
+    font-family: 'Karla', sans-serif;
+
+}
+.btn{
+    color: white;
+    background-color: hsl(66, 95%, 57%);
+    font-size: 80%;
+    width: 60%;
+    height: 40px;
+    align-content: center;
+    margin:3% 8% 3% 8%;
+    font-family: 'Karla', sans-serif;
+    border:none;
+
+ 
+}
+@media(max-width: 375px) {
+    body {
+        margin: 3px 10px 3px;
+        border: none;
+    }
+
+    .principal  {
+        border: none;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+
+    
+    }
+
+    header{ height:180px ;
+
+    }
+    section{
+        height:180px ;
+    }
+    aside{height:170px ;
+
+    }
+h1{
+    padding: 0;
+    margin: 2% 15% 2% 10%;
+    font-size: 0.7rem;
+    color:rgb(2, 218, 218);
+    font-family: 'Karla', sans-serif;
+    justify-items: center;
+}
+h2{
+    padding: 15px 0px 15px 0px;
+    margin:5% 8% 2% 10%;
+    font-size: 0.7rem;
+    color: yellow;
+    font-family: 'Karla', sans-serif;
+
+}
+h3{
+    padding: 0;
+    margin: 5% 8% 2% 10%;
+    font-size: 0.7rem;
+    color:white;
+    font-family: 'Karla', sans-serif;
+    
+}
+h4{
+    padding: 0;
+    margin: 0% 0% 10% 10%;
+    font-size: 0.7rem;
+    color:white;
+    font-family: 'Karla', sans-serif;   
+    
+}
+.valor{
+    flex:none;}
+.valor-maior{
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    padding: 5px 0px 5px 0px;
+
+}
+.valor-menor{
+    display: inline-block;
+    color:white;
+    font-size: 8px;
+    font-family: 'Karla', sans-serif;
+
+}
+.btn{
+    color: white;
+    background-color: hsl(66, 95%, 57%);
+    font-size: 70%;
+    width: 80%;
+    height: 30px;
+    align-content: center;
+    padding: 5px 0px 5 px 0 px;
+    font-family: 'Karla', sans-serif;
+    border:none;
+    
+
+    }
+
+
+   .section-p{
+        width:70%;
+        padding: 10px;
+        margin: 2% 8% 2% 8%;
+        font-size: 0.6rem;
+        color:white;
+        font-family: 'Karla', sans-serif;
+        text-align: justify;
+        
+    }
+    
+    .cabecalho-p{
+        width:70%;
+        margin: 2% 2% 2% 10%;
+        font-size: 0.6rem;
+        color:hsl(218, 22%, 67%);
+        font-family: 'Karla', sans-serif;
+        text-align: justify;
+    }
+    .aside-p{
+        width: 80%;
+        color:white;
+        font-family: 'Karla', sans-serif;
+        font-size: 0.6rem;
+    
+    }
+    button:hover{
+        background-color: rgb(255, 255, 255);
+        color:black
+   
+    }    
+}
